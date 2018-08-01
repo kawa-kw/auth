@@ -18,7 +18,7 @@ const styles = {
         height: 80,
         paddingTop: 20,
         marginBottom: 10,
-        backgroundColor: '#56CFD2',
+        backgroundColor: '#9AB5C1',
         shadowColor: '#000',
         shadowOffset: {width: 0, height: 2},
         shadowOpacity: .2,
