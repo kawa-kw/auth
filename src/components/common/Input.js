@@ -12,6 +12,7 @@ const Input = (props) => {
         <View style={containerStyle}>
             <Text style={labelStyle}>{props.label}</Text>
             <TextInput
+                secureTextEntry={props.secureTextEntry}
                 autoCorrect={false}
                 placeholder={props.placeholder}
                 value={props.value}
@@ -30,18 +31,19 @@ const styles = {
         height: 40,
     },
     inputStyle: {
-        flex: 3,
+        flex: 2,
         paddingLeft: 5,
         paddingRight: 5,
         fontSize: 18,
         color: '#000',
-        backgroundColor: '#ccc',
+        //backgroundColor: '#ccc',
     },
     labelStyle: {
         flex: 1,
         paddingLeft: 20,
         fontSize: 18,
-        backgroundColor: '#ddd',
+        color: '#C1867B'
+        //backgroundColor: '#ddd',
     },
 }
 
@@ -61,3 +63,7 @@ export { Input }
         // </View>
 //     )
 // }
+
+
+// The same:
+//secureTextEntry={true} === secureTextEntry
